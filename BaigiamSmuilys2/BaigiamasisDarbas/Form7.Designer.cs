@@ -39,7 +39,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -130,30 +129,20 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 301);
+            this.dataGridView1.Location = new System.Drawing.Point(21, 255);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(438, 206);
+            this.dataGridView1.Size = new System.Drawing.Size(438, 252);
             this.dataGridView1.TabIndex = 41;
             // 
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Consolas", 14.25F);
-            this.button3.Location = new System.Drawing.Point(124, 255);
+            this.button3.Location = new System.Drawing.Point(240, 209);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(219, 40);
             this.button3.TabIndex = 40;
             this.button3.Text = "Išsaugoti duomenis";
             this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Consolas", 14.25F);
-            this.button2.Location = new System.Drawing.Point(240, 209);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(214, 40);
-            this.button2.TabIndex = 39;
-            this.button2.Text = "Į pagr. langą";
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -173,7 +162,6 @@
             this.ClientSize = new System.Drawing.Size(484, 561);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label5);
@@ -205,7 +193,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
     }
 }

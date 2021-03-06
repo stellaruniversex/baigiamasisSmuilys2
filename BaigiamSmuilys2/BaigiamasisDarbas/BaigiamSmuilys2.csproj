@@ -53,11 +53,23 @@
       <DependentUpon>about.cs</DependentUpon>
     </Compile>
     <Compile Include="Ataskaitos.cs" />
-    <Compile Include="Form10.cs">
+    <Compile Include="parduotuves.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form10.Designer.cs">
-      <DependentUpon>Form10.cs</DependentUpon>
+    <Compile Include="parduotuves.Designer.cs">
+      <DependentUpon>parduotuves.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pirkejai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pirkejai.Designer.cs">
+      <DependentUpon>pirkejai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="prekiuTipai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prekiuTipai.Designer.cs">
+      <DependentUpon>prekiuTipai.cs</DependentUpon>
     </Compile>
     <Compile Include="Form6.cs">
       <SubType>Form</SubType>
@@ -85,6 +97,12 @@
     </Compile>
     <Compile Include="Parduotuve.cs" />
     <Compile Include="Pirkejas.cs" />
+    <Compile Include="sandeliuTurinys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sandeliuTurinys.Designer.cs">
+      <DependentUpon>sandeliuTurinys.cs</DependentUpon>
+    </Compile>
     <Compile Include="Sandelys.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -148,6 +166,15 @@
     <EmbeddedResource Include="Form9.resx">
       <DependentUpon>Form9.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="parduotuves.resx">
+      <DependentUpon>parduotuves.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pirkejai.resx">
+      <DependentUpon>pirkejai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prekiuTipai.resx">
+      <DependentUpon>prekiuTipai.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -158,6 +185,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="sandeliuTurinys.resx">
+      <DependentUpon>sandeliuTurinys.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

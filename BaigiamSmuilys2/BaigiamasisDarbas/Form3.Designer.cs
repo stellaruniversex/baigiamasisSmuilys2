@@ -33,8 +33,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,49 +70,58 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(17, 190);
+            this.dataGridView1.Location = new System.Drawing.Point(19, 177);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(438, 206);
+            this.dataGridView1.Size = new System.Drawing.Size(438, 252);
             this.dataGridView1.TabIndex = 5;
             // 
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Consolas", 14.25F);
-            this.button3.Location = new System.Drawing.Point(127, 144);
+            this.button3.Location = new System.Drawing.Point(243, 131);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(219, 40);
             this.button3.TabIndex = 32;
             this.button3.Text = "Išsaugoti duomenis";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Consolas", 14.25F);
-            this.button2.Location = new System.Drawing.Point(243, 98);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(214, 40);
-            this.button2.TabIndex = 31;
-            this.button2.Text = "Į pagr. langą";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Consolas", 14.25F);
-            this.button1.Location = new System.Drawing.Point(19, 98);
+            this.button1.Location = new System.Drawing.Point(19, 131);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(218, 40);
             this.button1.TabIndex = 30;
             this.button1.Text = "Įterpti";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Consolas", 12.25F);
+            this.textBox2.Location = new System.Drawing.Point(210, 87);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(245, 27);
+            this.textBox2.TabIndex = 34;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Consolas", 14.25F);
+            this.label3.Location = new System.Drawing.Point(13, 88);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(80, 22);
+            this.label3.TabIndex = 33;
+            this.label3.Text = "Adresas";
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.ForestGreen;
-            this.ClientSize = new System.Drawing.Size(484, 412);
+            this.ClientSize = new System.Drawing.Size(484, 441);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.textBox1);
@@ -132,7 +142,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label3;
     }
 }

@@ -12,3 +12,8 @@ C:\Users\PC\source\repos\BaigiamSmuilys2\BaigiamasisDarbas\obj\Debug\BaigiamSmui
 C:\Users\PC\source\repos\BaigiamSmuilys2\BaigiamasisDarbas\obj\Debug\BaigiamasisDarbas.exe
 C:\Users\PC\source\repos\BaigiamSmuilys2\BaigiamasisDarbas\obj\Debug\BaigiamasisDarbas.pdb
 C:\Users\PC\source\repos\BaigiamSmuilys2\BaigiamasisDarbas\obj\Debug\BaigiamSmuilys2.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\BaigiamSmuilys2\BaigiamasisDarbas\obj\Debug\BaigiamasisDarbas.about.resources
+C:\Users\PC\source\repos\BaigiamSmuilys2\BaigiamasisDarbas\obj\Debug\BaigiamasisDarbas.Form6.resources
+C:\Users\PC\source\repos\BaigiamSmuilys2\BaigiamasisDarbas\obj\Debug\BaigiamasisDarbas.Form7.resources
+C:\Users\PC\source\repos\BaigiamSmuilys2\BaigiamasisDarbas\obj\Debug\BaigiamasisDarbas.Form8.resources
+C:\Users\PC\source\repos\BaigiamSmuilys2\BaigiamasisDarbas\obj\Debug\BaigiamasisDarbas.Form9.resources

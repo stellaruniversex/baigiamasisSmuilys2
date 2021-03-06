@@ -40,16 +40,20 @@ namespace BaigiamasisDarbas
     {
         const int Cmax = 2048;
         private int n, plotas;
+        string adresas;
 
         public Sandelys()
         {
             n = 0; // prekiu kiekis - 1
             plotas = 0; // plotas
+            adresas = "";
         }
 
-        public Sandelys(int plotas)
+        public Sandelys(int plotas, string adresas)
         {
-            this.plotas = plotas;        }
+            this.plotas = plotas;
+            this.adresas = adresas;
+        }
 
         public int Get() { return n; }
     }

@@ -88,5 +88,11 @@ namespace BaigiamasisDarbas
             Form9 f9 = new Form9();
             f9.ShowDialog();
         }
+
+        private void apieToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            about abt = new about();
+            abt.ShowDialog();
+        }
     }
 }
