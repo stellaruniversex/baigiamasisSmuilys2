@@ -1,0 +1,14 @@
+C:\Users\PC\source\repos\BaigiamSmuilys2\BaigiamasisDarbas\bin\Debug\BaigiamasisDarbas.exe.config
+C:\Users\PC\source\repos\BaigiamSmuilys2\BaigiamasisDarbas\bin\Debug\BaigiamasisDarbas.exe
+C:\Users\PC\source\repos\BaigiamSmuilys2\BaigiamasisDarbas\bin\Debug\BaigiamasisDarbas.pdb
+C:\Users\PC\source\repos\BaigiamSmuilys2\BaigiamasisDarbas\obj\Debug\BaigiamasisDarbas.Form1.resources
+C:\Users\PC\source\repos\BaigiamSmuilys2\BaigiamasisDarbas\obj\Debug\BaigiamasisDarbas.Form2.resources
+C:\Users\PC\source\repos\BaigiamSmuilys2\BaigiamasisDarbas\obj\Debug\BaigiamasisDarbas.Form3.resources
+C:\Users\PC\source\repos\BaigiamSmuilys2\BaigiamasisDarbas\obj\Debug\BaigiamasisDarbas.Form4.resources
+C:\Users\PC\source\repos\BaigiamSmuilys2\BaigiamasisDarbas\obj\Debug\BaigiamasisDarbas.Form5.resources
+C:\Users\PC\source\repos\BaigiamSmuilys2\BaigiamasisDarbas\obj\Debug\BaigiamasisDarbas.Properties.Resources.resources
+C:\Users\PC\source\repos\BaigiamSmuilys2\BaigiamasisDarbas\obj\Debug\BaigiamSmuilys2.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\BaigiamSmuilys2\BaigiamasisDarbas\obj\Debug\BaigiamSmuilys2.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\BaigiamSmuilys2\BaigiamasisDarbas\obj\Debug\BaigiamasisDarbas.exe
+C:\Users\PC\source\repos\BaigiamSmuilys2\BaigiamasisDarbas\obj\Debug\BaigiamasisDarbas.pdb
+C:\Users\PC\source\repos\BaigiamSmuilys2\BaigiamasisDarbas\obj\Debug\BaigiamSmuilys2.csprojAssemblyReference.cache
