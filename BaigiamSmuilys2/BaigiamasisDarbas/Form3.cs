@@ -16,5 +16,11 @@ namespace BaigiamasisDarbas
         {
             InitializeComponent();
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+            dataGridView1.Columns.Add("Column", "Plotas");
+            dataGridView1.Columns.Add("Column", "Adresas");
+        }
     }
 }

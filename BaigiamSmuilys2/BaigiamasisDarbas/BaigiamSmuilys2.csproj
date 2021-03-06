@@ -193,6 +193,9 @@
     <EmbeddedResource Include="kvitoIsrasymas.resx">
       <DependentUpon>kvitoIsrasymas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="nupirktosPrekes.resx">
+      <DependentUpon>nupirktosPrekes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="parduotuves.resx">
       <DependentUpon>parduotuves.cs</DependentUpon>
     </EmbeddedResource>

@@ -11,6 +11,7 @@ namespace BaigiamasisDarbas
         const int Cmax = 2048;
         private Preke[] preke;
         private int Lentynos, Dydis, Imokos, Ismokos, n;
+        private Int64 telefonas;
         private string Vieta;
         public Parduotuve()
         {
@@ -19,15 +20,17 @@ namespace BaigiamasisDarbas
             Dydis = 0;
             Imokos = 0;
             Ismokos = 0;
+            telefonas = 0;
             Vieta = "";
             preke = new Preke[Cmax];
         }
-        public Parduotuve(int Lentynos, int Dydis, int Imokos, int Ismokos, string Vieta, Preke[] preke)
+        public Parduotuve(int Lentynos, int Dydis, int Imokos, int Ismokos, Int64 telefonas, string Vieta, Preke[] preke)
         {
             this.Lentynos = Lentynos;
             this.Dydis = Dydis;
             this.Imokos = Imokos;
             this.Ismokos = Ismokos;
+            this.telefonas = telefonas;
             this.Vieta = Vieta;
             this.preke = preke;
         }

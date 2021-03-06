@@ -57,7 +57,7 @@
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Consolas", 12.25F);
-            this.textBox3.Location = new System.Drawing.Point(211, 129);
+            this.textBox3.Location = new System.Drawing.Point(211, 128);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(245, 27);
             this.textBox3.TabIndex = 18;
@@ -111,7 +111,7 @@
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Consolas", 12.25F);
-            this.textBox4.Location = new System.Drawing.Point(211, 166);
+            this.textBox4.Location = new System.Drawing.Point(211, 161);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(245, 27);
             this.textBox4.TabIndex = 20;
@@ -143,6 +143,7 @@
             this.button3.TabIndex = 40;
             this.button3.Text = "Išsaugoti duomenis";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button1
             // 
@@ -153,6 +154,7 @@
             this.button1.TabIndex = 38;
             this.button1.Text = "Įterpti";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form7
             // 
@@ -174,6 +176,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form7";
             this.Text = "Form7";
+            this.Load += new System.EventHandler(this.Form7_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

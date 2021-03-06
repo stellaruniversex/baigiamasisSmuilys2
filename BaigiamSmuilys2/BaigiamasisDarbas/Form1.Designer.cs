@@ -62,7 +62,7 @@
             this.apieToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(784, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(485, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -154,49 +154,49 @@
             // prekesToolStripMenuItem1
             // 
             this.prekesToolStripMenuItem1.Name = "prekesToolStripMenuItem1";
-            this.prekesToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.prekesToolStripMenuItem1.Size = new System.Drawing.Size(178, 22);
             this.prekesToolStripMenuItem1.Text = "Prekių tipai";
             this.prekesToolStripMenuItem1.Click += new System.EventHandler(this.prekesToolStripMenuItem1_Click);
             // 
             // sandeliaiToolStripMenuItem1
             // 
             this.sandeliaiToolStripMenuItem1.Name = "sandeliaiToolStripMenuItem1";
-            this.sandeliaiToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.sandeliaiToolStripMenuItem1.Size = new System.Drawing.Size(178, 22);
             this.sandeliaiToolStripMenuItem1.Text = "Sandėlių turinys";
             this.sandeliaiToolStripMenuItem1.Click += new System.EventHandler(this.sandeliaiToolStripMenuItem1_Click);
             // 
             // pirkejaiToolStripMenuItem1
             // 
             this.pirkejaiToolStripMenuItem1.Name = "pirkejaiToolStripMenuItem1";
-            this.pirkejaiToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.pirkejaiToolStripMenuItem1.Size = new System.Drawing.Size(178, 22);
             this.pirkejaiToolStripMenuItem1.Text = "Pirkėjai";
             this.pirkejaiToolStripMenuItem1.Click += new System.EventHandler(this.pirkejaiToolStripMenuItem1_Click);
             // 
             // parduotuvesToolStripMenuItem1
             // 
             this.parduotuvesToolStripMenuItem1.Name = "parduotuvesToolStripMenuItem1";
-            this.parduotuvesToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.parduotuvesToolStripMenuItem1.Size = new System.Drawing.Size(178, 22);
             this.parduotuvesToolStripMenuItem1.Text = "Parduotuvės";
             this.parduotuvesToolStripMenuItem1.Click += new System.EventHandler(this.parduotuvesToolStripMenuItem1_Click);
             // 
             // parduotuviuTurinysToolStripMenuItem1
             // 
             this.parduotuviuTurinysToolStripMenuItem1.Name = "parduotuviuTurinysToolStripMenuItem1";
-            this.parduotuviuTurinysToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.parduotuviuTurinysToolStripMenuItem1.Size = new System.Drawing.Size(178, 22);
             this.parduotuviuTurinysToolStripMenuItem1.Text = "Parduotuvių turinys";
             this.parduotuviuTurinysToolStripMenuItem1.Click += new System.EventHandler(this.parduotuviuTurinysToolStripMenuItem1_Click);
             // 
             // nupirktosPrekesToolStripMenuItem1
             // 
             this.nupirktosPrekesToolStripMenuItem1.Name = "nupirktosPrekesToolStripMenuItem1";
-            this.nupirktosPrekesToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.nupirktosPrekesToolStripMenuItem1.Size = new System.Drawing.Size(178, 22);
             this.nupirktosPrekesToolStripMenuItem1.Text = "Nupirktos prekės";
             this.nupirktosPrekesToolStripMenuItem1.Click += new System.EventHandler(this.nupirktosPrekesToolStripMenuItem1_Click);
             // 
             // uzsakymaiToolStripMenuItem1
             // 
             this.uzsakymaiToolStripMenuItem1.Name = "uzsakymaiToolStripMenuItem1";
-            this.uzsakymaiToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.uzsakymaiToolStripMenuItem1.Size = new System.Drawing.Size(178, 22);
             this.uzsakymaiToolStripMenuItem1.Text = "Užsakymai";
             this.uzsakymaiToolStripMenuItem1.Click += new System.EventHandler(this.uzsakymaiToolStripMenuItem1_Click);
             // 
@@ -218,7 +218,7 @@
             // 
             this.pictureBox1.BackgroundImage = global::BaigiamasisDarbas.Properties.Resources.automatas;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(256, 27);
+            this.pictureBox1.Location = new System.Drawing.Point(112, 27);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(250, 180);
             this.pictureBox1.TabIndex = 1;
@@ -229,7 +229,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.ForestGreen;
-            this.ClientSize = new System.Drawing.Size(784, 441);
+            this.ClientSize = new System.Drawing.Size(485, 441);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;

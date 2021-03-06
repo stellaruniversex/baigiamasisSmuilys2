@@ -1,7 +1,1 @@
-Mineralinis vanduo, 500 ml;UAB Aqua;0.79;2023;07;30
-Mineralinis vanudo, 1000 ml;UAB Aqua;0.99;2023;07;29
-Mineralinis vanduo, 2000 ml;UAB Aqua;1.39;2023;08;01
-Kiauliena, 500 g;UAB Mesininkai,2.99;2021;05;03
-Pienas 3.5%, 1000 ml;AB Lietuvos pienas;1.49;2021;05;06
-Sokoladas, 150 g;UAB Konfekcija;0.99;2021;08;24
-Kompiuteris X2800;UAB Elektronas;449.99;9999;01;01
+﻿
