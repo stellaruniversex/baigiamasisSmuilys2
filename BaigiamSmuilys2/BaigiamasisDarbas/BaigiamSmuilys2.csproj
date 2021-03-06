@@ -53,11 +53,29 @@
       <DependentUpon>about.cs</DependentUpon>
     </Compile>
     <Compile Include="Ataskaitos.cs" />
+    <Compile Include="kvitoIsrasymas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kvitoIsrasymas.Designer.cs">
+      <DependentUpon>kvitoIsrasymas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nupirktosPrekes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nupirktosPrekes.Designer.cs">
+      <DependentUpon>nupirktosPrekes.cs</DependentUpon>
+    </Compile>
     <Compile Include="parduotuves.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="parduotuves.Designer.cs">
       <DependentUpon>parduotuves.cs</DependentUpon>
+    </Compile>
+    <Compile Include="parduotuviuTurinys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="parduotuviuTurinys.Designer.cs">
+      <DependentUpon>parduotuviuTurinys.cs</DependentUpon>
     </Compile>
     <Compile Include="pirkejai.cs">
       <SubType>Form</SubType>
@@ -136,6 +154,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="uzsakymai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="uzsakymai.Designer.cs">
+      <DependentUpon>uzsakymai.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="about.resx">
       <DependentUpon>about.cs</DependentUpon>
     </EmbeddedResource>
@@ -166,8 +190,14 @@
     <EmbeddedResource Include="Form9.resx">
       <DependentUpon>Form9.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="kvitoIsrasymas.resx">
+      <DependentUpon>kvitoIsrasymas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="parduotuves.resx">
       <DependentUpon>parduotuves.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="parduotuviuTurinys.resx">
+      <DependentUpon>parduotuviuTurinys.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="pirkejai.resx">
       <DependentUpon>pirkejai.cs</DependentUpon>
@@ -187,6 +217,9 @@
     </Compile>
     <EmbeddedResource Include="sandeliuTurinys.resx">
       <DependentUpon>sandeliuTurinys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uzsakymai.resx">
+      <DependentUpon>uzsakymai.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

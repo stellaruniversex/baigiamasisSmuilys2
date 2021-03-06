@@ -42,13 +42,13 @@
             this.prekesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.sandeliaiToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.pirkejaiToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.parduotuvesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.parduotuviuTurinysToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.nupirktosPrekesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.uzsakymaiToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.kvitoIsrasymasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.apieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.parduotuvėsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.parduotuviųTurinysToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -143,8 +143,8 @@
             this.prekesToolStripMenuItem1,
             this.sandeliaiToolStripMenuItem1,
             this.pirkejaiToolStripMenuItem1,
-            this.parduotuvėsToolStripMenuItem,
-            this.parduotuviųTurinysToolStripMenuItem,
+            this.parduotuvesToolStripMenuItem1,
+            this.parduotuviuTurinysToolStripMenuItem1,
             this.nupirktosPrekesToolStripMenuItem1,
             this.uzsakymaiToolStripMenuItem1});
             this.ataskaitosToolStripMenuItem.Name = "ataskaitosToolStripMenuItem";
@@ -156,36 +156,56 @@
             this.prekesToolStripMenuItem1.Name = "prekesToolStripMenuItem1";
             this.prekesToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.prekesToolStripMenuItem1.Text = "Prekių tipai";
+            this.prekesToolStripMenuItem1.Click += new System.EventHandler(this.prekesToolStripMenuItem1_Click);
             // 
             // sandeliaiToolStripMenuItem1
             // 
             this.sandeliaiToolStripMenuItem1.Name = "sandeliaiToolStripMenuItem1";
             this.sandeliaiToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.sandeliaiToolStripMenuItem1.Text = "Sandėlių turinys";
+            this.sandeliaiToolStripMenuItem1.Click += new System.EventHandler(this.sandeliaiToolStripMenuItem1_Click);
             // 
             // pirkejaiToolStripMenuItem1
             // 
             this.pirkejaiToolStripMenuItem1.Name = "pirkejaiToolStripMenuItem1";
             this.pirkejaiToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.pirkejaiToolStripMenuItem1.Text = "Pirkėjai";
+            this.pirkejaiToolStripMenuItem1.Click += new System.EventHandler(this.pirkejaiToolStripMenuItem1_Click);
+            // 
+            // parduotuvesToolStripMenuItem1
+            // 
+            this.parduotuvesToolStripMenuItem1.Name = "parduotuvesToolStripMenuItem1";
+            this.parduotuvesToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.parduotuvesToolStripMenuItem1.Text = "Parduotuvės";
+            this.parduotuvesToolStripMenuItem1.Click += new System.EventHandler(this.parduotuvesToolStripMenuItem1_Click);
+            // 
+            // parduotuviuTurinysToolStripMenuItem1
+            // 
+            this.parduotuviuTurinysToolStripMenuItem1.Name = "parduotuviuTurinysToolStripMenuItem1";
+            this.parduotuviuTurinysToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.parduotuviuTurinysToolStripMenuItem1.Text = "Parduotuvių turinys";
+            this.parduotuviuTurinysToolStripMenuItem1.Click += new System.EventHandler(this.parduotuviuTurinysToolStripMenuItem1_Click);
             // 
             // nupirktosPrekesToolStripMenuItem1
             // 
             this.nupirktosPrekesToolStripMenuItem1.Name = "nupirktosPrekesToolStripMenuItem1";
             this.nupirktosPrekesToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.nupirktosPrekesToolStripMenuItem1.Text = "Nupirktos prekės";
+            this.nupirktosPrekesToolStripMenuItem1.Click += new System.EventHandler(this.nupirktosPrekesToolStripMenuItem1_Click);
             // 
             // uzsakymaiToolStripMenuItem1
             // 
             this.uzsakymaiToolStripMenuItem1.Name = "uzsakymaiToolStripMenuItem1";
             this.uzsakymaiToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.uzsakymaiToolStripMenuItem1.Text = "Užsakymai";
+            this.uzsakymaiToolStripMenuItem1.Click += new System.EventHandler(this.uzsakymaiToolStripMenuItem1_Click);
             // 
             // kvitoIsrasymasToolStripMenuItem
             // 
             this.kvitoIsrasymasToolStripMenuItem.Name = "kvitoIsrasymasToolStripMenuItem";
             this.kvitoIsrasymasToolStripMenuItem.Size = new System.Drawing.Size(100, 20);
             this.kvitoIsrasymasToolStripMenuItem.Text = "Kvito išrašymas";
+            this.kvitoIsrasymasToolStripMenuItem.Click += new System.EventHandler(this.kvitoIsrasymasToolStripMenuItem_Click);
             // 
             // apieToolStripMenuItem
             // 
@@ -203,18 +223,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(250, 180);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-            // 
-            // parduotuvėsToolStripMenuItem
-            // 
-            this.parduotuvėsToolStripMenuItem.Name = "parduotuvėsToolStripMenuItem";
-            this.parduotuvėsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.parduotuvėsToolStripMenuItem.Text = "Parduotuvės";
-            // 
-            // parduotuviųTurinysToolStripMenuItem
-            // 
-            this.parduotuviųTurinysToolStripMenuItem.Name = "parduotuviųTurinysToolStripMenuItem";
-            this.parduotuviųTurinysToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.parduotuviųTurinysToolStripMenuItem.Text = "Parduotuvių turinys";
             // 
             // Form1
             // 
@@ -256,8 +264,8 @@
         private System.Windows.Forms.ToolStripMenuItem uzsakymaiToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem sandeliaiToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem apieToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem parduotuvėsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem parduotuviųTurinysToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem parduotuvesToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem parduotuviuTurinysToolStripMenuItem1;
     }
 }
 

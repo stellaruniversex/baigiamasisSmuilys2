@@ -94,5 +94,53 @@ namespace BaigiamasisDarbas
             about abt = new about();
             abt.ShowDialog();
         }
+
+        private void prekesToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            prekiuTipai prt = new prekiuTipai();
+            prt.ShowDialog();
+        }
+
+        private void sandeliaiToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            sandeliuTurinys snt = new sandeliuTurinys();
+            snt.ShowDialog();
+        }
+
+        private void pirkejaiToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            pirkejai prk = new pirkejai();
+            prk.ShowDialog();
+        }
+
+        private void parduotuvesToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            parduotuves prd = new parduotuves();
+            prd.ShowDialog();
+        }
+
+        private void parduotuviuTurinysToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            parduotuviuTurinys prt = new parduotuviuTurinys();
+            prt.ShowDialog();
+        }
+
+        private void nupirktosPrekesToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            nupirktosPrekes npk = new nupirktosPrekes();
+            npk.ShowDialog();
+        }
+
+        private void uzsakymaiToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            uzsakymai uzs = new uzsakymai();
+            uzs.ShowDialog();
+        }
+
+        private void kvitoIsrasymasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            kvitoIsrasymas kvi = new kvitoIsrasymas();
+            kvi.ShowDialog();
+        }
     }
 }
