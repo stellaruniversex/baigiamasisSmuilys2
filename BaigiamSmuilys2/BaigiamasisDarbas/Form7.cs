@@ -61,7 +61,7 @@ namespace BaigiamasisDarbas
                 try {
                     x = Convert.ToInt64(textBox4.Text);
                 }
-                catch (FormatException) {
+                catch (FormatException) {  // tikrina visus skaičių laukus, ar neįvestį blogi simboliai
                     textBox4.Text = "";
                     MessageBox.Show("Įvedimo klaida!", "Pranešimas");
                     throw;

@@ -24,9 +24,27 @@ namespace BaigiamasisDarbas
             this.GyvVieta = GyvVieta;
             this.Telefonas = Telefonas;
         }
+        public void SetVardas(string vrd) { Vardas = vrd; }
+        public void SetPavarde(string pvr) { Pavarde = pvr; }
+        public void SetGyvVieta(string gyv) { GyvVieta = gyv; }
+        public void SetTelefonas(Int64 tel) { Telefonas = tel; }
         public string GetVardas() { return Vardas; }
         public string GetPavarde() { return Pavarde; }
         public string GetGyvVieta() { return GyvVieta; }
         public Int64 GetTelefonas() { return Telefonas; }
+
+        public static bool operator <(Pirkejas pirk1, Pirkejas pirk2)
+        {
+            int p = pirk1.Vardas.CompareTo(pirk2.Vardas);
+            int v = String.Compare(pirk1.Pavarde, pirk2.Pavarde, StringComparison.CurrentCulture);
+            return (p > 0 || (p == 0 && v > 0));
+        }
+
+        public static bool operator >(Pirkejas pirk1, Pirkejas pirk2)
+        {
+            int p = pirk1.Vardas.CompareTo(pirk2.Vardas);
+            int v = String.Compare(pirk1.Pavarde, pirk2.Pavarde, StringComparison.CurrentCulture);
+            return (p < 0 || (p == 0 && v < 0));
+        }
     }
 }

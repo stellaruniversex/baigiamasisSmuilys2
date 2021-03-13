@@ -36,7 +36,7 @@ namespace BaigiamasisDarbas
             }
             else
             {
-                try
+                try // tikrina visus skaičių laukus, ar neįvestį blogi simboliai
                 {
                     x = Convert.ToInt32(textBox6.Text);
                     x = Convert.ToInt32(textBox4.Text);

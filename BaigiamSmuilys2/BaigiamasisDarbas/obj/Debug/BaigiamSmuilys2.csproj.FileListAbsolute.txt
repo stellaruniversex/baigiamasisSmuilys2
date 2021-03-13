@@ -43,3 +43,4 @@ C:\Users\PC\Documents\git2\baigiamasisSmuilys2\BaigiamSmuilys2\BaigiamasisDarbas
 C:\Users\PC\Documents\git2\baigiamasisSmuilys2\BaigiamSmuilys2\BaigiamasisDarbas\obj\Debug\BaigiamasisDarbas.uzsakymai.resources
 C:\Users\PC\Documents\git2\baigiamasisSmuilys2\BaigiamSmuilys2\BaigiamasisDarbas\obj\Debug\BaigiamasisDarbas.kvitoIsrasymas.resources
 C:\Users\PC\Documents\git2\baigiamasisSmuilys2\BaigiamSmuilys2\BaigiamasisDarbas\obj\Debug\BaigiamasisDarbas.nupirktosPrekes.resources
+C:\Users\PC\Documents\git2\baigiamasisSmuilys2\BaigiamSmuilys2\BaigiamasisDarbas\obj\Debug\BaigiamSmuilys2.csprojAssemblyReference.cache

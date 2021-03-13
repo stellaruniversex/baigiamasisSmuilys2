@@ -35,6 +35,20 @@ namespace BaigiamasisDarbas
         public int GetMetai() { return Metai; }
         public int GetMenuo() { return Menuo; }
         public int GetDiena() { return Diena; }
+
+        public static bool operator <(Preke prek1, Preke prek2)
+        {
+            int p = prek1.Pavadinimas.CompareTo(prek2.Pavadinimas);
+            int v = String.Compare(prek1.Gamintojas, prek2.Gamintojas, StringComparison.CurrentCulture);
+            return (p > 0 || (p == 0 && v > 0));
+        }
+
+        public static bool operator >(Preke prek1, Preke prek2)
+        {
+            int p = prek1.Pavadinimas.CompareTo(prek2.Pavadinimas);
+            int v = String.Compare(prek1.Gamintojas, prek2.Gamintojas, StringComparison.CurrentCulture);
+            return (p < 0 || (p == 0 && v < 0));
+        }
     }
     class Sandelys
     {

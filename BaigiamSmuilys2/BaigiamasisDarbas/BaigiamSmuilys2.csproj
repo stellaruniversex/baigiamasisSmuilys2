@@ -115,6 +115,7 @@
     </Compile>
     <Compile Include="Parduotuve.cs" />
     <Compile Include="Pirkejas.cs" />
+    <Compile Include="SandeliuTuriniai.cs" />
     <Compile Include="sandeliuTurinys.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -154,6 +155,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Uzsakyma.cs" />
     <Compile Include="uzsakymai.cs">
       <SubType>Form</SubType>
     </Compile>
