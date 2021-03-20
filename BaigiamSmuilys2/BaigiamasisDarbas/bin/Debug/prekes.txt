@@ -1,1 +1,5 @@
-﻿Šaldiklis, 2000 W;Ledynas UAB;9999;1;1;399.99;
+﻿Šaldiklis, 2000 W;UAB Ledynas;9999;1;1;399.99;
+Mineralinis vanduo, 1000 ml;UAB Vandenys;2023;4;25;0.99;
+Mineralinis vanduo, 2000 ml;UAB Vandenys;2023;4;21;1.49;
+Kiauliena, 1000g;UAB Mėsinikai;2021;5;15;4.99;
+Kompiuteris X980;AB Elektronas;9999;1;1;499.99;

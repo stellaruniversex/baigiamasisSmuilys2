@@ -176,6 +176,7 @@
             this.button3.TabIndex = 43;
             this.button3.Text = "Išsaugoti duomenis";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button1
             // 
@@ -186,6 +187,7 @@
             this.button1.TabIndex = 41;
             this.button1.Text = "Įterpti";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dataGridView1
             // 

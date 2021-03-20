@@ -17,6 +17,7 @@ namespace BaigiamasisDarbas
         {
             InitializeComponent();
         }
+        const string Cfd1 = "prekes.txt";
         const int C = 100;
         string pavadinimas = "";
         string gamintojas = "";
@@ -26,6 +27,7 @@ namespace BaigiamasisDarbas
         int kiekis = 0;
         int x = 0;
         double y = 0;
+        int n = 0;
         string line = "";
 
         private void button1_Click(object sender, EventArgs e)
@@ -82,6 +84,7 @@ namespace BaigiamasisDarbas
             dataGridView1.Columns.Add("Column", "Menuo");
             dataGridView1.Columns.Add("Column", "Diena");
             dataGridView1.Columns.Add("Column", "Kaina");
+            SkaitytiIDataGrid(dataGridView1, Cfd1, out n);
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -103,6 +106,26 @@ namespace BaigiamasisDarbas
                 line += dg.Rows[i].Cells[4].Value.ToString() + ";";
                 line += dg.Rows[i].Cells[5].Value.ToString() + ";";
                 fs.WriteLine(line);
+            }
+        }
+
+        static void SkaitytiIDataGrid(DataGridView dg, string fv, out int n)
+        {
+            n = 0;
+            string pavadinimas, gamintojas;
+            double kaina;
+            int metai, menuo, diena;
+            string[] lines = File.ReadAllLines(fv);
+            foreach (string line in lines)
+            {
+                string[] parts = line.Split(';');
+                pavadinimas = parts[0];
+                gamintojas = parts[1];
+                metai = int.Parse(parts[2]);
+                menuo = int.Parse(parts[3]);
+                diena = int.Parse(parts[4]);
+                kaina = double.Parse(parts[5]);
+                dg.Rows.Add(pavadinimas, gamintojas, metai, menuo, diena, kaina);
             }
         }
     }

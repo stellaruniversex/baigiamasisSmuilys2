@@ -1,0 +1,2 @@
+Jonas;Jonaitis;Naujoji g. 30, Kaunas;859312891;
+Petras;Petraitis;Senoji g. 46, Klaipėda;861212134;

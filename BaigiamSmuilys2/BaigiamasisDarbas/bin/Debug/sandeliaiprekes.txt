@@ -1,0 +1,6 @@
+﻿Šaldiklis, 2000 W;28 pastatas, Laisvoji ekonominė zona;7;
+Šaldiklis, 2000 W;Mėlynoji g. 192, Kaunas;2;
+Mineralinis vanduo, 1000 ml;28 pastatas, Laisvoji ekonominė zona;136;
+Mineralinis vanduo, 1000 ml;Mėlynoji g. 192, Kaunas;105;
+Mineralinis vanduo, 2000 ml;28 pastatas, Laisvoji ekonominė zona;90;
+Mineralinis vanduo, 2000 ml;Mėlynoji g. 192, Kaunas;60;

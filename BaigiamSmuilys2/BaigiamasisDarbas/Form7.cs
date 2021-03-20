@@ -17,8 +17,9 @@ namespace BaigiamasisDarbas
         {
             InitializeComponent();
         }
-        const string FDpirkejai = "pirkejai.txt";
+        const string Cfd1 = "pirkejai.txt";
         Int64 x = 0;
+        int n = 0;
         string line = "";
 
         private void Form7_Load(object sender, EventArgs e)
@@ -27,6 +28,7 @@ namespace BaigiamasisDarbas
             dataGridView1.Columns.Add("Column", "Pavarde");
             dataGridView1.Columns.Add("Column", "Gyv. vieta");
             dataGridView1.Columns.Add("Column", "Telefonas");
+            SkaitytiIDataGrid(dataGridView1, Cfd1, out n);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -92,6 +94,23 @@ namespace BaigiamasisDarbas
                 line += dg.Rows[i].Cells[2].Value.ToString() + ";";
                 line += dg.Rows[i].Cells[3].Value.ToString() + ";";
                 fs.WriteLine(line);
+            }
+
+        }
+        static void SkaitytiIDataGrid(DataGridView dg, string fv, out int n)
+        {
+            n = 0;
+            string vardas, pavarde, gyvvieta;
+            Int64 telefonas;
+            string[] lines = File.ReadAllLines(fv);
+            foreach (string line in lines)
+            {
+                string[] parts = line.Split(';');
+                vardas = parts[0];
+                pavarde = parts[1];
+                gyvvieta = parts[2];
+                telefonas = Int64.Parse(parts[3]);
+                dg.Rows.Add(vardas, pavarde, gyvvieta, telefonas);
             }
         }
     }

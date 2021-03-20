@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
-
+// pastaba, reikės padaryti visose formose, kad negalima būtų įvesti ';' simbolio, nes tai užlauž viską!!!
 namespace BaigiamasisDarbas
 {
     public partial class Form1 : Form

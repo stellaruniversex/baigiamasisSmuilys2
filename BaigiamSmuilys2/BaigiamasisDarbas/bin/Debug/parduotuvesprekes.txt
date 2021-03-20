@@ -1,0 +1,5 @@
+﻿Mineralinis vanduo, 1000 ml;Aukštoji g. 30, Kaunas;16;
+Mineralinis vanduo, 1000 ml;Naujoji g. 17, Vilnius;20;
+Mineralinis vanduo, 1000 ml;Ilgoji g. 2, Vilnius;12;
+Mineralinis vanduo, 2000 ml;Aukštoji g. 30, Kaunas;10;
+Kiauliena, 1000g;Aukštoji g. 30, Kaunas;15;

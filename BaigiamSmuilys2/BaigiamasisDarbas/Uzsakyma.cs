@@ -19,6 +19,15 @@ namespace BaigiamasisDarbas
             menuo = 0;
             diena = 0;
         }
+        public Uzsakyma(string prekespavad, string pardpavad, int kiekis, int metai, int menuo, int diena)
+        {
+            this.prekespavad = prekespavad;
+            this.pardpavad = prekespavad;
+            this.kiekis = kiekis;
+            this.metai = metai;
+            this.menuo = menuo;
+            this.diena = diena;
+        }
         public void SetPrekesPavad(string prp) { prekespavad = prp; }
         public void SetPardPavad(string parp) { pardpavad = parp; }
         public void SetKiekis(int k) { kiekis = k; }

@@ -18,7 +18,9 @@ namespace BaigiamasisDarbas
             InitializeComponent();
         }
         Int64 x = 0;
+        int n = 0;
         string line = "";
+        const string Cfd1 = "parduotuves.txt";
 
         private void Form5_Load(object sender, EventArgs e)
         {
@@ -28,6 +30,7 @@ namespace BaigiamasisDarbas
             dataGridView1.Columns.Add("Column", "Išmokos");
             dataGridView1.Columns.Add("Column", "Telefonas");
             dataGridView1.Columns.Add("Column", "Vieta");
+            SkaitytiIDataGrid(dataGridView1, Cfd1, out n);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -85,6 +88,26 @@ namespace BaigiamasisDarbas
                 line += dg.Rows[i].Cells[4].Value.ToString() + ";";
                 line += dg.Rows[i].Cells[5].Value.ToString() + ";";
                 fs.WriteLine(line);
+            }
+        }
+
+        static void SkaitytiIDataGrid(DataGridView dg, string fv, out int n)
+        {
+            n = 0;
+            string vieta;
+            int lentynos, dydis, imokos, ismokos;
+            Int64 telefonas;
+            string[] lines = File.ReadAllLines(fv);
+            foreach (string line in lines)
+            {
+                string[] parts = line.Split(';');
+                lentynos = int.Parse(parts[0]);
+                dydis = int.Parse(parts[1]);
+                imokos = int.Parse(parts[2]);
+                ismokos = int.Parse(parts[3]);
+                telefonas = Int64.Parse(parts[4]);
+                vieta = parts[5];
+                dg.Rows.Add(lentynos, dydis, imokos, ismokos, telefonas, vieta);
             }
         }
     }

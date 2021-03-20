@@ -107,6 +107,7 @@
             this.button3.TabIndex = 36;
             this.button3.Text = "Išsaugoti duomenis";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button1
             // 
@@ -117,6 +118,7 @@
             this.button1.TabIndex = 34;
             this.button1.Text = "Įterpti";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label4
             // 
