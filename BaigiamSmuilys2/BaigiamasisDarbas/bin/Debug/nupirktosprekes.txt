@@ -1,0 +1,3 @@
+﻿Mineralinis vanduo, 1000 ml;Aukštoji g. 30, Kaunas;Jonas;Jonaitis;6;2021;3;
+Jautiena, 1000g;Naujoji g. 17, Vilnius;Petras;Petraitis;3;2021;3;
+Kompiuteris X980;Aukštoji g. 30, Kaunas;Jonas;Jonaitis;1;2021;3;
