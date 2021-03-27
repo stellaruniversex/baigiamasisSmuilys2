@@ -61,6 +61,10 @@ namespace BaigiamasisDarbas
             {
                 MessageBox.Show("Ne visi langeliai užpildyti!", "Pranešimas");
             }
+            if (textBox1.Text.Contains(';') == true || textBox2.Text.Contains(';') == true)
+            {
+                MessageBox.Show("Duomenyse negali būti kabliataškio!", "Pranešimas");
+            }
             else
             {
                 try // tikrina visus skaičių laukus, ar neįvestį blogi simboliai

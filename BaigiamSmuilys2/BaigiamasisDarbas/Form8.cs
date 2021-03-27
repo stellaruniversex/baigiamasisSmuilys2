@@ -25,7 +25,7 @@ namespace BaigiamasisDarbas
         const string Cfd2 = "parduotuves.txt";
         const string Cfd3 = "pirkejai.txt";
         const string Cfx = "nupirktosprekes.txt";
-
+        
         private void Form8_Load(object sender, EventArgs e)
         {
             dataGridView1.Columns.Add("Column", "Pavadinimas");
@@ -79,9 +79,13 @@ namespace BaigiamasisDarbas
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "" || textBox1.Text == "" || textBox4.Text == "" || textBox3.Text == "" || textBox2.Text == "")
+            if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "" || textBox4.Text == "")
             {
                 MessageBox.Show("Ne visi langeliai užpildyti!", "Pranešimas");
+            }
+            if (textBox1.Text.Contains(';') == true || textBox2.Text.Contains(';') == true || textBox3.Text.Contains(';') == true || textBox4.Text.Contains(';') == true)
+            {
+                MessageBox.Show("Duomenyse negali būti kabliataškio!", "Pranešimas");
             }
             else
             {

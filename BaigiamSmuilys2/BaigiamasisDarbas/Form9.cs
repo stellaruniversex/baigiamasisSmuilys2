@@ -23,7 +23,7 @@ namespace BaigiamasisDarbas
         const string Cfx = "uzsakymai.txt";
         string line = "";
         int x = 0;
-        int n = 0;
+        //int n = 0;
 
         private void Form9_Load(object sender, EventArgs e)
         {
@@ -39,9 +39,13 @@ namespace BaigiamasisDarbas
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "" || textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "" || textBox4.Text == "")
+            if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "" || textBox4.Text == "")
             {
                 MessageBox.Show("Ne visi langeliai užpildyti!", "Pranešimas");
+            }
+            if (textBox1.Text.Contains(';') == true || textBox2.Text.Contains(';') == true || textBox3.Text.Contains(';') == true || textBox4.Text.Contains(';') == true)
+            {
+                MessageBox.Show("Duomenyse negali būti kabliataškio!", "Pranešimas");
             }
             else
             {

@@ -1,0 +1,8 @@
+﻿-----------Pavadinimas------------------------Gamintojas------------Metai---Menuo---Diena----Kaina--
+|              Šaldiklis, 2000 W |                    UAB Ledynas |  9999 |     1 |     1 | 399.99 |
+|    Mineralinis vanduo, 1000 ml |                   UAB Vandenys |  2023 |     4 |    25 |   0.99 |
+|    Mineralinis vanduo, 2000 ml |                   UAB Vandenys |  2023 |     4 |    21 |   1.49 |
+|               Kiauliena, 1000g |                  UAB Mėsinikai |  2021 |     5 |    15 |   4.99 |
+|                Jautiena, 1000g |                  UAB Mėsinikai |  2021 |     5 |    17 |   5.49 |
+|                Šokoladas, 100g |                   UAB Cukrainė |  2021 |    11 |    24 |   1.99 |
+----------------------------------------------------------------------------------------------------

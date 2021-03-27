@@ -12,6 +12,8 @@ namespace BaigiamasisDarbas
 {
     public partial class sandeliuTurinys : Form
     {
+        // Užduotis: susieti sandėlio turinį su užsakymais, kad būtų galima žinoti, kiek sandėlys turi prekių po visų užsakymų
+
         public sandeliuTurinys()
         {
             InitializeComponent();

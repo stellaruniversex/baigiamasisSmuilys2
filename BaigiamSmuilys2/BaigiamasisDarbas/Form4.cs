@@ -23,7 +23,7 @@ namespace BaigiamasisDarbas
         const string Cfd1 = "prekes.txt";
         const string Cfd2 = "sandeliai.txt";
         const string Cfx = "sandeliaiprekes.txt";
-            
+           
         private void Form4_Load(object sender, EventArgs e)
         {
             dataGridView1.Columns.Add("Column", "Pavadinimas");
@@ -37,6 +37,10 @@ namespace BaigiamasisDarbas
             if (textBox1.Text == "" || comboBox1.Text == "" || comboBox2.Text == "")
             {
                 MessageBox.Show("Ne visi langeliai užpildyti!", "Pranešimas");
+            }
+            if (textBox1.Text.Contains(';') == true)
+            {
+                MessageBox.Show("Duomenyse negali būti kabliataškio!", "Pranešimas");
             }
             else
             {

@@ -19,12 +19,12 @@ namespace BaigiamasisDarbas
         }
         const string Cfd1 = "prekes.txt";
         const int C = 100;
-        string pavadinimas = "";
-        string gamintojas = "";
-        int metai = 0;
-        int menuo = 0;
-        int diena = 0;
-        int kiekis = 0;
+        //string pavadinimas = "";
+        //string gamintojas = "";
+        //int metai = 0;
+        //int menuo = 0;
+        //int diena = 0;
+        //int kiekis = 0;
         int x = 0;
         double y = 0;
         int n = 0;
@@ -35,6 +35,10 @@ namespace BaigiamasisDarbas
             if (textBox1.Text == "" || textBox2.Text == "" || textBox3.Text == "" || textBox4.Text == "" || textBox5.Text == "" || textBox6.Text == "")
             {
                 MessageBox.Show("Ne visi langeliai užpildyti!", "Pranešimas");
+            }
+            if (textBox1.Text.Contains(';') == true || textBox2.Text.Contains(';') == true || textBox3.Text.Contains(';') == true || textBox4.Text.Contains(';') == true || textBox5.Text.Contains(';') == true || textBox6.Text.Contains(';') == true)
+            {
+                MessageBox.Show("Duomenyse negali būti kabliataškio!", "Pranešimas");
             }
             else
             {
@@ -61,6 +65,7 @@ namespace BaigiamasisDarbas
                 textBox4.Text = "";
                 textBox5.Text = "";
                 textBox6.Text = "";
+                //MessageBox.Show("Sėkmingai įrašyta", "Pranešimas");
             }
         }
 
