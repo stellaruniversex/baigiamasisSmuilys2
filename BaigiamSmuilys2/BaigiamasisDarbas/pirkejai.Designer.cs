@@ -162,6 +162,7 @@
             this.Controls.Add(this.label1);
             this.Name = "pirkejai";
             this.Text = "pirkejai";
+            this.Load += new System.EventHandler(this.pirkejai_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

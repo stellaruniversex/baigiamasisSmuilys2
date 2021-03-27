@@ -86,12 +86,16 @@ namespace BaigiamasisDarbas
                 TextWriter fs = new StreamWriter(Cfs, false, System.Text.Encoding.GetEncoding(65001));
                 SpausdintiDuomenis(dataGridView1, fs, line);
                 fs.Close();
+                MessageBox.Show("Sėkmingai įrašyta į ataskaita_prekes.txt", "Pranešimas");
             }
             else
             {
+                string success_string = "Sėkmingai įrašyta į " + textBox11.Text + ".txt";
                 TextWriter fs = new StreamWriter((textBox11.Text + ".txt"), false, System.Text.Encoding.GetEncoding(65001));
                 SpausdintiDuomenis(dataGridView1, fs, line);
                 fs.Close();
+                //MessageBox.Show("Sėkmingai įrašyta", "Pranešimas");
+                MessageBox.Show(success_string, "Pranešimas");
             }
             //dataGridView1.Rows.Add(this.textBox1.Text, this.textBox2.Text, this.textBox6.Text, this.textBox4.Text, this.textBox3.Text, this.textBox5.Text);
             //textBox1.Text = "";

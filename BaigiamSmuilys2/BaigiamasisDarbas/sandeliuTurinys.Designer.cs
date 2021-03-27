@@ -50,6 +50,9 @@
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -88,12 +91,13 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Consolas", 14.25F);
-            this.button1.Location = new System.Drawing.Point(137, 265);
+            this.button1.Location = new System.Drawing.Point(240, 298);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(218, 40);
             this.button1.TabIndex = 75;
             this.button1.Text = "Generuoti ataskaitą";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox5
             // 
@@ -241,10 +245,40 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(20, 311);
+            this.dataGridView1.Location = new System.Drawing.Point(20, 344);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(438, 243);
+            this.dataGridView1.Size = new System.Drawing.Size(438, 210);
             this.dataGridView1.TabIndex = 85;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Font = new System.Drawing.Font("Consolas", 12.25F);
+            this.textBox13.Location = new System.Drawing.Point(213, 265);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(245, 27);
+            this.textBox13.TabIndex = 86;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Consolas", 14.25F);
+            this.label8.Location = new System.Drawing.Point(16, 266);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(180, 22);
+            this.label8.TabIndex = 87;
+            this.label8.Text = "Failo pavadinimas";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.checkBox1.Font = new System.Drawing.Font("Consolas", 12F);
+            this.checkBox1.Location = new System.Drawing.Point(20, 308);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(199, 23);
+            this.checkBox1.TabIndex = 88;
+            this.checkBox1.Text = "Įdėti prekių info.:";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // sandeliuTurinys
             // 
@@ -252,6 +286,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.ForestGreen;
             this.ClientSize = new System.Drawing.Size(484, 561);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.textBox13);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.textBox11);
             this.Controls.Add(this.textBox12);
@@ -276,6 +313,7 @@
             this.Controls.Add(this.label1);
             this.Name = "sandeliuTurinys";
             this.Text = "sandeliuTurinys";
+            this.Load += new System.EventHandler(this.sandeliuTurinys_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -306,5 +344,8 @@
         private System.Windows.Forms.TextBox textBox12;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }

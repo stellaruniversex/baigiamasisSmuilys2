@@ -16,5 +16,13 @@ namespace BaigiamasisDarbas
         {
             InitializeComponent();
         }
+
+        private void pirkejai_Load(object sender, EventArgs e)
+        {
+            dataGridView1.Columns.Add("Column", "Vardas");
+            dataGridView1.Columns.Add("Column", "Pavardė");
+            dataGridView1.Columns.Add("Column", "Gyv. vieta");
+            dataGridView1.Columns.Add("Column", "Telefonas");
+        }
     }
 }

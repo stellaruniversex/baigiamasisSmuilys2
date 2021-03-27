@@ -1,0 +1,7 @@
+﻿-----------Pavadinimas------------------------------Sandėlis------------------Kiekis--
+|    Mineralinis vanduo, 2000 ml |     28 pastatas, Laisvoji ekonominė zona |     90 |
+|    Mineralinis vanduo, 2000 ml |                  Mėlynoji g. 192, Kaunas |     60 |
+|                Šokoladas, 100g |     28 pastatas, Laisvoji ekonominė zona |     74 |
+|                Šokoladas, 100g |                  Mėlynoji g. 192, Kaunas |     35 |
+|                Jautiena, 1000g |                  Mėlynoji g. 192, Kaunas |     25 |
+--------------------------------------------------------------------------------------

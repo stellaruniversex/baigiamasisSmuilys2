@@ -1,0 +1,7 @@
+﻿-----------Pavadinimas------------------------------Sandėlis------------------Kiekis--
+|              Šaldiklis, 2000 W |     28 pastatas, Laisvoji ekonominė zona |      7 |
+|    Mineralinis vanduo, 1000 ml |     28 pastatas, Laisvoji ekonominė zona |    136 |
+|    Mineralinis vanduo, 2000 ml |     28 pastatas, Laisvoji ekonominė zona |     90 |
+|                Šokoladas, 100g |     28 pastatas, Laisvoji ekonominė zona |     74 |
+|               Kompiuteris X980 |     28 pastatas, Laisvoji ekonominė zona |      7 |
+--------------------------------------------------------------------------------------

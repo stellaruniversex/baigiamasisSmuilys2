@@ -58,7 +58,7 @@ namespace BaigiamasisDarbas
 
         public Sandelys()
         {
-            n = 0; // prekiu kiekis - 1
+            //n = 0; // prekiu kiekis - 1
             plotas = 0; // plotas
             adresas = "";
         }
