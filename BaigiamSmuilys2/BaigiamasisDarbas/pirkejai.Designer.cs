@@ -39,6 +39,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -128,20 +130,39 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(22, 260);
+            this.dataGridView1.Location = new System.Drawing.Point(22, 274);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(438, 289);
+            this.dataGridView1.Size = new System.Drawing.Size(438, 275);
             this.dataGridView1.TabIndex = 66;
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Consolas", 14.25F);
-            this.button1.Location = new System.Drawing.Point(136, 214);
+            this.button1.Location = new System.Drawing.Point(132, 228);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(218, 40);
             this.button1.TabIndex = 65;
             this.button1.Text = "Generuoti ataskaitą";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // textBox5
+            // 
+            this.textBox5.Font = new System.Drawing.Font("Consolas", 12.25F);
+            this.textBox5.Location = new System.Drawing.Point(215, 195);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(245, 27);
+            this.textBox5.TabIndex = 67;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Consolas", 14.25F);
+            this.label6.Location = new System.Drawing.Point(18, 200);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(180, 22);
+            this.label6.TabIndex = 68;
+            this.label6.Text = "Failo pavadinimas";
             // 
             // pirkejai
             // 
@@ -149,6 +170,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.ForestGreen;
             this.ClientSize = new System.Drawing.Size(484, 561);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox4);
@@ -182,5 +205,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label6;
     }
 }

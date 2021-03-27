@@ -1,0 +1,5 @@
+﻿-----Vardas---------Pavardė-------------Gyvenamoji vieta------------Telefonas-----
+|        Jonas |     Jonaitis |          Naujoji g. 30, Kaunas |       859312891 |
+|       Petras |    Petraitis |         Senoji g. 46, Klaipėda |       861212134 |
+|       Marija |       Marytė |        Aukštoji g. 26, Vilnius |       864931245 |
+----------------------------------------------------------------------------------

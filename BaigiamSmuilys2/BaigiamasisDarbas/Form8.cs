@@ -120,6 +120,7 @@ namespace BaigiamasisDarbas
             TextWriter fs = new StreamWriter("nupirktosprekes.txt", false, System.Text.Encoding.GetEncoding(65001));
             SpausdintiDuomenis(dataGridView1, fs, line);
             fs.Close();
+            MessageBox.Show("Sėkmingai įrašyta į nupirktosprekes.txt", "Pranešimas");
         }
 
         static void SpausdintiDuomenis(DataGridView dg, TextWriter fs, string line)
@@ -134,6 +135,7 @@ namespace BaigiamasisDarbas
                 line += dg.Rows[i].Cells[4].Value.ToString() + ";";
                 line += dg.Rows[i].Cells[5].Value.ToString() + ";";
                 line += dg.Rows[i].Cells[6].Value.ToString() + ";";
+                line += dg.Rows[i].Cells[7].Value.ToString() + ";";
                 fs.WriteLine(line);
             }
         }

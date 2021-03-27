@@ -105,6 +105,7 @@ namespace BaigiamasisDarbas
             TextWriter fs = new StreamWriter("sandeliaiprekes.txt", false, System.Text.Encoding.GetEncoding(65001));
             SpausdintiDuomenis(dataGridView1, fs, line);
             fs.Close();
+            MessageBox.Show("Sėkmingai įrašyta į sandeliaiprekes.txt", "Pranešimas");
         }
     }
 }

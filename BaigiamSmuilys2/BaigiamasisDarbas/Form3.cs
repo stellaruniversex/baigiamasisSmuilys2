@@ -81,5 +81,13 @@ namespace BaigiamasisDarbas
                 textBox1.Text = "";
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            TextWriter fs = new StreamWriter("sandeliai.txt", false, System.Text.Encoding.GetEncoding(65001));
+            SpausdintiDuomenis(dataGridView1, fs, line);
+            fs.Close();
+            MessageBox.Show("Sėkmingai įrašyta į sandeliai.txt", "Pranešimas");
+        }
     }
 }

@@ -70,6 +70,7 @@ namespace BaigiamasisDarbas
              TextWriter fs = new StreamWriter("parduotuvesprekes.txt", false, System.Text.Encoding.GetEncoding(65001));
              SpausdintiDuomenis(dataGridView1, fs, line);
              fs.Close();
+            MessageBox.Show("Sėkmingai įrašyta į parduotuvesprekes.txt", "Pranešimas");
         }
 
         static void SpausdintiDuomenis(DataGridView dg, TextWriter fs, string line)
