@@ -71,6 +71,7 @@
     <Compile Include="parduotuves.Designer.cs">
       <DependentUpon>parduotuves.cs</DependentUpon>
     </Compile>
+    <Compile Include="ParduotuveTurinys.cs" />
     <Compile Include="parduotuviuTurinys.cs">
       <SubType>Form</SubType>
     </Compile>

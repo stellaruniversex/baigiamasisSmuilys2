@@ -24,7 +24,7 @@ namespace BaigiamasisDarbas
             Vieta = "";
             //preke = new Preke[Cmax];
         }
-        public Parduotuve(int Lentynos, int Dydis, int Imokos, int Ismokos, Int64 telefonas, string Vieta, Preke[] preke)
+        public Parduotuve(int Lentynos, int Dydis, int Imokos, int Ismokos, Int64 telefonas, string Vieta)
         {
             this.Lentynos = Lentynos;
             this.Dydis = Dydis;
@@ -41,11 +41,13 @@ namespace BaigiamasisDarbas
         public void SetDydis(int d) { Dydis = d; }
         public void SetImokos(int i) { Imokos = i; }
         public void SetIsmokos(int ii) { Ismokos = ii; }
+        public void SetTelefonas(Int64 t) { telefonas = t; }
         public void SetVieta(string v) { Vieta = v; }
         public int GetLentynos() { return Lentynos; }
         public int GetDydis() { return Dydis; }
         public int GetImokos() { return Imokos; }
         public int GetIsmokos() { return Ismokos; }
+        public Int64 GetTelefonas() { return telefonas; }
         public string GetVieta() { return Vieta; }
         public static bool operator <(Parduotuve pard1, Parduotuve pard2)
         {
