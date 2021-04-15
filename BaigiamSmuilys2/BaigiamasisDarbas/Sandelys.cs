@@ -53,7 +53,7 @@ namespace BaigiamasisDarbas
     class Sandelys
     {
         const int Cmax = 2048;
-        private int n, plotas;
+        private int plotas;
         string adresas;
 
         public Sandelys()
@@ -69,7 +69,7 @@ namespace BaigiamasisDarbas
             this.adresas = adresas;
         }
 
-        public int Get() { return n; }
+        //public int Get() { return n; }
     }
     //class Sandelys // senas sandelys, su prekes klase
     //{

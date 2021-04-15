@@ -78,25 +78,9 @@ namespace BaigiamasisDarbas
             else maxdiena = int.Parse(textBox8.Text);
             if (textBox5.Text == "") minkaina = 0;
             else minkaina = double.Parse(textBox5.Text);
-            if (textBox10.Text == "") maxkaina = 2147483647;
+            if (textBox10.Text == "") maxkaina = 1.7976931348623156E+308;
             else maxkaina = double.Parse(textBox10.Text);
             isrinkti(dataGridView1, prekes, pavadinimas, gamintojas, minmetai, maxmetai, minmenuo, maxmenuo, mindiena, maxdiena, minkaina, maxkaina, n);
-            if (textBox11.Text == "")
-            {
-                TextWriter fs = new StreamWriter(Cfs, false, System.Text.Encoding.GetEncoding(65001));
-                SpausdintiDuomenis(dataGridView1, fs, line);
-                fs.Close();
-                MessageBox.Show("Sėkmingai įrašyta į ataskaita_prekes.txt", "Pranešimas");
-            }
-            else
-            {
-                string success_string = "Sėkmingai įrašyta į " + textBox11.Text + ".txt";
-                TextWriter fs = new StreamWriter((textBox11.Text + ".txt"), false, System.Text.Encoding.GetEncoding(65001));
-                SpausdintiDuomenis(dataGridView1, fs, line);
-                fs.Close();
-                //MessageBox.Show("Sėkmingai įrašyta", "Pranešimas");
-                MessageBox.Show(success_string, "Pranešimas");
-            }
             //dataGridView1.Rows.Add(this.textBox1.Text, this.textBox2.Text, this.textBox6.Text, this.textBox4.Text, this.textBox3.Text, this.textBox5.Text);
             //textBox1.Text = "";
             //textBox2.Text = "";
@@ -180,6 +164,26 @@ namespace BaigiamasisDarbas
             dataGridView1.Columns.Add("Column", "Diena");
             dataGridView1.Columns.Add("Column", "Kaina");
             skaitytiDuomenis(dataGridView1, prekes, Cfd, out n);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (textBox11.Text == "")
+            {
+                TextWriter fs = new StreamWriter(Cfs, false, System.Text.Encoding.GetEncoding(65001));
+                SpausdintiDuomenis(dataGridView1, fs, line);
+                fs.Close();
+                MessageBox.Show("Sėkmingai įrašyta į ataskaita_prekes.txt", "Pranešimas");
+            }
+            else
+            {
+                string success_string = "Sėkmingai įrašyta į " + textBox11.Text + ".txt";
+                TextWriter fs = new StreamWriter((textBox11.Text + ".txt"), false, System.Text.Encoding.GetEncoding(65001));
+                SpausdintiDuomenis(dataGridView1, fs, line);
+                fs.Close();
+                //MessageBox.Show("Sėkmingai įrašyta", "Pranešimas");
+                MessageBox.Show(success_string, "Pranešimas");
+            }
         }
     }
 }

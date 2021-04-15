@@ -1,0 +1,4 @@
+﻿-----------Pavadinimas------------------------------Sandėlis----------------------Vardas--------Pavardė-----Kiekis---Metai---Menuo---Diena--
+|    Mineralinis vanduo, 1000 ml |                   Aukštoji g. 30, Kaunas |        Jonas |     Jonaitis |      6 |  2021 |     3 |    20 |
+|               Kompiuteris X980 |                   Aukštoji g. 30, Kaunas |        Jonas |     Jonaitis |      1 |  2021 |     3 |    14 |
+--------------------------------------------------------------------------------------------------------------------------------------------

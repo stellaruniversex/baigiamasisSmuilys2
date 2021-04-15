@@ -59,6 +59,7 @@
     <Compile Include="kvitoIsrasymas.Designer.cs">
       <DependentUpon>kvitoIsrasymas.cs</DependentUpon>
     </Compile>
+    <Compile Include="NupirktaPreke.cs" />
     <Compile Include="nupirktosPrekes.cs">
       <SubType>Form</SubType>
     </Compile>

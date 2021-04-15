@@ -1,0 +1,19 @@
+﻿Filtrai:
+Pavadinimas: **
+Gamintojas: **
+Parduotuvė: Aukštoji g. 30, Kaunas
+Min. metai: 1
+Min. mėnuo: 1
+Min. diena: 1
+Maks. metai: 9999
+Maks. mėnuo: 12
+Maks. diena: 31
+Min. kaina: 0
+Maks. kaina: 1.79769313486232E+308
+Min. kiekis: 0
+Maks. kiekis: 2147483647
+-----------Pavadinimas-----------------------------Parduotuvė-----------------Kiekis--
+|    Mineralinis vanduo, 1000 ml |                   Aukštoji g. 30, Kaunas |     16 |
+|    Mineralinis vanduo, 2000 ml |                   Aukštoji g. 30, Kaunas |     10 |
+|               Kiauliena, 1000g |                   Aukštoji g. 30, Kaunas |     15 |
+--------------------------------------------------------------------------------------

@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -52,24 +52,27 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
-            // 
-            // textBox11
-            // 
-            this.textBox11.Font = new System.Drawing.Font("Consolas", 12.25F);
-            this.textBox11.Location = new System.Drawing.Point(339, 223);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(121, 27);
-            this.textBox11.TabIndex = 104;
             // 
             // textBox12
             // 
             this.textBox12.Font = new System.Drawing.Font("Consolas", 12.25F);
-            this.textBox12.Location = new System.Drawing.Point(215, 223);
+            this.textBox12.Location = new System.Drawing.Point(339, 223);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(121, 27);
-            this.textBox12.TabIndex = 103;
+            this.textBox12.TabIndex = 104;
+            // 
+            // textBox11
+            // 
+            this.textBox11.Font = new System.Drawing.Font("Consolas", 12.25F);
+            this.textBox11.Location = new System.Drawing.Point(215, 223);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(121, 27);
+            this.textBox11.TabIndex = 103;
             // 
             // label7
             // 
@@ -89,7 +92,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(170, 22);
             this.label6.TabIndex = 101;
-            this.label6.Text = "Sandėlio adresas";
+            this.label6.Text = "Parduotuvės adr.";
             // 
             // comboBox1
             // 
@@ -124,13 +127,13 @@
             this.textBox8.Size = new System.Drawing.Size(22, 27);
             this.textBox8.TabIndex = 97;
             // 
-            // textBox9
+            // textBox6
             // 
-            this.textBox9.Font = new System.Drawing.Font("Consolas", 12.25F);
-            this.textBox9.Location = new System.Drawing.Point(353, 156);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(50, 27);
-            this.textBox9.TabIndex = 96;
+            this.textBox6.Font = new System.Drawing.Font("Consolas", 12.25F);
+            this.textBox6.Location = new System.Drawing.Point(353, 156);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(50, 27);
+            this.textBox6.TabIndex = 96;
             // 
             // button1
             // 
@@ -143,13 +146,13 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox5
+            // textBox9
             // 
-            this.textBox5.Font = new System.Drawing.Font("Consolas", 12.25F);
-            this.textBox5.Location = new System.Drawing.Point(215, 190);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(121, 27);
-            this.textBox5.TabIndex = 94;
+            this.textBox9.Font = new System.Drawing.Font("Consolas", 12.25F);
+            this.textBox9.Location = new System.Drawing.Point(215, 190);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(121, 27);
+            this.textBox9.TabIndex = 94;
             // 
             // label5
             // 
@@ -169,21 +172,21 @@
             this.textBox4.Size = new System.Drawing.Size(23, 27);
             this.textBox4.TabIndex = 92;
             // 
+            // textBox5
+            // 
+            this.textBox5.Font = new System.Drawing.Font("Consolas", 12.25F);
+            this.textBox5.Location = new System.Drawing.Point(300, 156);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(22, 27);
+            this.textBox5.TabIndex = 91;
+            // 
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Consolas", 12.25F);
-            this.textBox3.Location = new System.Drawing.Point(300, 156);
+            this.textBox3.Location = new System.Drawing.Point(215, 156);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(22, 27);
-            this.textBox3.TabIndex = 91;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Font = new System.Drawing.Font("Consolas", 12.25F);
-            this.textBox6.Location = new System.Drawing.Point(215, 156);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(50, 27);
-            this.textBox6.TabIndex = 90;
+            this.textBox3.Size = new System.Drawing.Size(50, 27);
+            this.textBox3.TabIndex = 90;
             // 
             // textBox2
             // 
@@ -267,31 +270,51 @@
             this.label8.TabIndex = 108;
             this.label8.Text = "Failo pavadinimas";
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Consolas", 14.25F);
+            this.label9.Location = new System.Drawing.Point(164, 550);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(130, 22);
+            this.label9.TabIndex = 110;
+            this.label9.Text = "Prekių tipai";
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(22, 575);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(438, 210);
+            this.dataGridView2.TabIndex = 109;
+            // 
             // parduotuviuTurinys
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.ForestGreen;
-            this.ClientSize = new System.Drawing.Size(484, 561);
+            this.ClientSize = new System.Drawing.Size(484, 811);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textBox13);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox11);
             this.Controls.Add(this.textBox12);
+            this.Controls.Add(this.textBox11);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox10);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.textBox6);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox9);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -301,6 +324,7 @@
             this.Text = "parduotuviuTurinys";
             this.Load += new System.EventHandler(this.parduotuviuTurinys_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -308,21 +332,21 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
@@ -332,5 +356,7 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox textBox13;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.DataGridView dataGridView2;
     }
 }

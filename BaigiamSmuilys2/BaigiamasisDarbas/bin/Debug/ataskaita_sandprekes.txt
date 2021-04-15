@@ -1,7 +1,28 @@
-﻿-----------Pavadinimas------------------------------Sandėlis------------------Kiekis--
+﻿Filtrai:
+Pavadinimas: **
+Gamintojas: **
+Sandėlis: 
+Min. metai: 1
+Min. mėnuo: 1
+Min. diena: 1
+Maks. metai: 9999
+Maks. mėnuo: 12
+Maks. diena: 31
+Min. kaina: 0
+Maks. kaina: 1.79769313486232E+308
+Min. kiekis: 0
+Maks. kiekis: 2147483647
+-----------Pavadinimas------------------------------Sandėlis------------------Kiekis--
+|              Šaldiklis, 2000 W |     28 pastatas, Laisvoji ekonominė zona |      7 |
+|              Šaldiklis, 2000 W |                  Mėlynoji g. 192, Kaunas |      2 |
+|    Mineralinis vanduo, 1000 ml |     28 pastatas, Laisvoji ekonominė zona |    136 |
+|    Mineralinis vanduo, 1000 ml |                  Mėlynoji g. 192, Kaunas |    105 |
 |    Mineralinis vanduo, 2000 ml |     28 pastatas, Laisvoji ekonominė zona |     90 |
 |    Mineralinis vanduo, 2000 ml |                  Mėlynoji g. 192, Kaunas |     60 |
 |                Šokoladas, 100g |     28 pastatas, Laisvoji ekonominė zona |     74 |
 |                Šokoladas, 100g |                  Mėlynoji g. 192, Kaunas |     35 |
+|               Kompiuteris X980 |     28 pastatas, Laisvoji ekonominė zona |      7 |
+|               Kompiuteris X980 |                  Mėlynoji g. 192, Kaunas |      4 |
 |                Jautiena, 1000g |                  Mėlynoji g. 192, Kaunas |     25 |
+|     Cukriniai saldainiai, 200g |     28 pastatas, Laisvoji ekonominė zona |     44 |
 --------------------------------------------------------------------------------------
