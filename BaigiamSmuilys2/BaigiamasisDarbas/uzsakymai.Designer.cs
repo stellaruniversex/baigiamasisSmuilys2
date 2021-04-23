@@ -47,8 +47,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.textBox10 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -84,7 +84,7 @@
             // 
             this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(184, 78);
+            this.comboBox2.Location = new System.Drawing.Point(183, 115);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(285, 28);
             this.comboBox2.TabIndex = 51;
@@ -93,7 +93,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Consolas", 14.25F);
-            this.label3.Location = new System.Drawing.Point(9, 84);
+            this.label3.Location = new System.Drawing.Point(8, 84);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(110, 22);
             this.label3.TabIndex = 50;
@@ -103,7 +103,7 @@
             // 
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(184, 44);
+            this.comboBox1.Location = new System.Drawing.Point(183, 78);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(285, 28);
             this.comboBox1.TabIndex = 49;
@@ -112,7 +112,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Consolas", 14.25F);
-            this.label2.Location = new System.Drawing.Point(9, 46);
+            this.label2.Location = new System.Drawing.Point(8, 49);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(130, 22);
             this.label2.TabIndex = 48;
@@ -222,23 +222,23 @@
             this.textBox9.Size = new System.Drawing.Size(284, 27);
             this.textBox9.TabIndex = 92;
             // 
-            // textBox10
-            // 
-            this.textBox10.Font = new System.Drawing.Font("Consolas", 12.25F);
-            this.textBox10.Location = new System.Drawing.Point(184, 112);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(284, 27);
-            this.textBox10.TabIndex = 93;
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Consolas", 14.25F);
-            this.label7.Location = new System.Drawing.Point(12, 117);
+            this.label7.Location = new System.Drawing.Point(8, 117);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(110, 22);
+            this.label7.Size = new System.Drawing.Size(90, 22);
             this.label7.TabIndex = 94;
-            this.label7.Text = "Parduotuvė";
+            this.label7.Text = "Sandėlis";
+            // 
+            // textBox10
+            // 
+            this.textBox10.Font = new System.Drawing.Font("Consolas", 12.25F);
+            this.textBox10.Location = new System.Drawing.Point(183, 44);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(284, 27);
+            this.textBox10.TabIndex = 93;
             // 
             // uzsakymai
             // 
@@ -297,7 +297,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBox10;
     }
 }

@@ -150,14 +150,6 @@ namespace BaigiamasisDarbas
                 inSandelys = (turiniai[i].GetAdresas().IndexOf(adresas, StringComparison.OrdinalIgnoreCase) >= 0);
                 if (turiniai[i].GetKiekis() >= minkiekis && turiniai[i].GetKiekis() <= maxkiekis) inKiekis = true;
                 isrinktiPrekes(prekes, turiniai, pavadinimas, gamintojas, minmetai, maxmetai, minmenuo, maxmenuo, mindiena, maxdiena, minkaina, maxkaina, m, i, out inPreke);
-                //inPavadinimas = false;
-                //inGamintojas = false;
-                //inMinData = false;
-                //inMaxData = false;
-                //inKaina = false;
-                ////2021-03-26 > 2024-07-10; 2022-02-06?
-                //inPavadinimas = (prekes[i].GetPavadinimas().IndexOf(pavadinimas, StringComparison.OrdinalIgnoreCase) >= 0);
-                //inGamintojas = (prekes[i].GetGamintojas().IndexOf(gamintojas, StringComparison.OrdinalIgnoreCase) >= 0);
                 if (inPavadinimas == true && inSandelys == true && inKiekis == true && inPreke == true) dg.Rows.Add(turiniai[i].GetPrekPavad(), turiniai[i].GetAdresas(), turiniai[i].GetKiekis());
             }
         }
@@ -232,7 +224,6 @@ namespace BaigiamasisDarbas
                 adresas = parts[1];
                 cb1.Items.Add(parts[1]);
                 sandeliai[m] = new Sandelys(plotas, adresas);
-                //dg.Rows.Add(pavadinimas, gamintojas, metai, menuo, diena, kaina);
                 m++;
             }
             lines = File.ReadAllLines(fv3);
@@ -243,13 +234,6 @@ namespace BaigiamasisDarbas
                 adresas = parts[1]; // sandėlio adresas
                 kiekis = int.Parse(parts[2]); // prekių kiekis sandėlyje
                 turinys[l] = new SandeliuTuriniai(pavadinimas, adresas, kiekis);
-                //pavadinimas = parts[0];
-                //gamintojas = parts[1];
-                //metai = int.Parse(parts[2]);
-                //menuo = int.Parse(parts[3]);
-                //diena = int.Parse(parts[4]);
-                //kaina = double.Parse(parts[5]);
-                //prekes[n] = new Preke(pavadinimas, gamintojas, kaina, metai, menuo, diena);
                 dg.Rows.Add(pavadinimas, adresas, kiekis);
                 l++;
             }

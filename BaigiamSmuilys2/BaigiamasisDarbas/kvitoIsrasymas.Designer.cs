@@ -42,6 +42,10 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -78,7 +82,7 @@
             // 
             this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(118, 380);
+            this.comboBox2.Location = new System.Drawing.Point(125, 521);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(176, 28);
             this.comboBox2.TabIndex = 111;
@@ -87,7 +91,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Consolas", 14.25F);
-            this.label3.Location = new System.Drawing.Point(19, 382);
+            this.label3.Location = new System.Drawing.Point(12, 524);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(90, 22);
             this.label3.TabIndex = 110;
@@ -96,7 +100,7 @@
             // textBox10
             // 
             this.textBox10.Font = new System.Drawing.Font("Consolas", 12.25F);
-            this.textBox10.Location = new System.Drawing.Point(162, 83);
+            this.textBox10.Location = new System.Drawing.Point(162, 112);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(285, 27);
             this.textBox10.TabIndex = 121;
@@ -105,44 +109,46 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Consolas", 14.25F);
-            this.label4.Location = new System.Drawing.Point(19, 84);
+            this.label4.Location = new System.Drawing.Point(19, 80);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(70, 22);
+            this.label4.Size = new System.Drawing.Size(110, 22);
             this.label4.TabIndex = 122;
-            this.label4.Text = "Kiekis";
+            this.label4.Text = "Parduotuvė";
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Consolas", 14.25F);
-            this.button1.Location = new System.Drawing.Point(130, 116);
+            this.button1.Location = new System.Drawing.Point(125, 145);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(218, 40);
             this.button1.TabIndex = 123;
             this.button1.Text = "Įterpti prekes";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Consolas", 14.25F);
-            this.button2.Location = new System.Drawing.Point(300, 380);
+            this.button2.Location = new System.Drawing.Point(307, 521);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(165, 28);
             this.button2.TabIndex = 124;
             this.button2.Text = "Išrašyti kvitą";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(23, 162);
+            this.dataGridView1.Location = new System.Drawing.Point(23, 191);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(438, 180);
+            this.dataGridView1.Size = new System.Drawing.Size(438, 258);
             this.dataGridView1.TabIndex = 125;
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Consolas", 12.25F);
-            this.textBox1.Location = new System.Drawing.Point(225, 348);
+            this.textBox1.Location = new System.Drawing.Point(232, 455);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(69, 27);
             this.textBox1.TabIndex = 126;
@@ -150,7 +156,7 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Consolas", 12.25F);
-            this.textBox2.Location = new System.Drawing.Point(118, 348);
+            this.textBox2.Location = new System.Drawing.Point(125, 455);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(47, 27);
             this.textBox2.TabIndex = 127;
@@ -158,7 +164,7 @@
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Consolas", 12.25F);
-            this.textBox3.Location = new System.Drawing.Point(172, 348);
+            this.textBox3.Location = new System.Drawing.Point(178, 455);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(47, 27);
             this.textBox3.TabIndex = 128;
@@ -167,18 +173,59 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Consolas", 14.25F);
-            this.label5.Location = new System.Drawing.Point(12, 353);
+            this.label5.Location = new System.Drawing.Point(9, 457);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(100, 22);
             this.label5.TabIndex = 129;
             this.label5.Text = "Išr. data";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Consolas", 14.25F);
+            this.label6.Location = new System.Drawing.Point(9, 489);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(110, 22);
+            this.label6.TabIndex = 130;
+            this.label6.Text = "Failo pav.";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Font = new System.Drawing.Font("Consolas", 12.25F);
+            this.textBox4.Location = new System.Drawing.Point(125, 488);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(347, 27);
+            this.textBox4.TabIndex = 131;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(162, 78);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(285, 28);
+            this.comboBox3.TabIndex = 132;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Consolas", 14.25F);
+            this.label7.Location = new System.Drawing.Point(19, 117);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(70, 22);
+            this.label7.TabIndex = 133;
+            this.label7.Text = "Kiekis";
             // 
             // kvitoIsrasymas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.ForestGreen;
-            this.ClientSize = new System.Drawing.Size(484, 442);
+            this.ClientSize = new System.Drawing.Size(484, 561);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
@@ -195,6 +242,7 @@
             this.Controls.Add(this.label1);
             this.Name = "kvitoIsrasymas";
             this.Text = "kvitoIsrasymas";
+            this.Load += new System.EventHandler(this.kvitoIsrasymas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -217,5 +265,9 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.Label label7;
     }
 }

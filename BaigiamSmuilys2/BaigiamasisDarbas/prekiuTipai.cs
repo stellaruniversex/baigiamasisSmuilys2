@@ -18,8 +18,6 @@ namespace BaigiamasisDarbas
             InitializeComponent();
         }
         int n = 0;
-        int x = 0;
-        double y = 0;
         string pavadinimas = "";
         string gamintojas = "";
         string line = "";

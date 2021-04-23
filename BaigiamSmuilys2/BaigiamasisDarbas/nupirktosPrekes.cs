@@ -18,18 +18,13 @@ namespace BaigiamasisDarbas
             InitializeComponent();
         }
         int n = 0;
-        int m = 0;
-        int l = 0;
         string parduotuve = "";
         string pavadinimas = "";
-        string entry = "";
         string vardas = "";
         string pavarde = "";
         const string Cfd1 = "parduotuves.txt";
-        //const string Cfd2 = "pirkejai.txt";
         const string Cfd3 = "nupirktosprekes.txt";
         const string Cfs = "ataskaita_nupprekes.txt";
-        //string line = "";
         int minmetai = 0;
         int maxmetai = 0;
         int minmenuo = 0;

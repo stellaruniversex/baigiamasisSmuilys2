@@ -1,0 +1,15 @@
+﻿Filtrai:
+Pavadinimas: **
+parduotuve: *Aukštoji g. 30, Kaunas*
+Sandėlis: 
+Min. metai: 1
+Min. mėnuo: 1
+Min. diena: 1
+Maks. metai: 9999
+Maks. mėnuo: 12
+Maks. diena: 31
+Min. kiekis: 0
+Maks. kiekis: 2147483647
+-----------Pavadinimas----------------------------Parduotuvė----------------------------------Sandėlis-------------------Kiekis---Metai---Mėnuo---Diena--
+|    Mineralinis vanduo, 1000 ml |                   Aukštoji g. 30, Kaunas |     28 pastatas, Laisvoji ekonominė zona |     12 |  2021 |     3 |    17 |
+---------------------------------------------------------------------------------------------------------------------------------------------------------

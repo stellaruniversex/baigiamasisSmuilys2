@@ -9,7 +9,6 @@ namespace BaigiamasisDarbas
     class Parduotuve
     {
         const int Cmax = 2048;
-        //private Preke[] preke;
         private int Lentynos, Dydis, Imokos, Ismokos, n;
         private Int64 telefonas;
         private string Vieta;
@@ -22,7 +21,6 @@ namespace BaigiamasisDarbas
             Ismokos = 0;
             telefonas = 0;
             Vieta = "";
-            //preke = new Preke[Cmax];
         }
         public Parduotuve(int Lentynos, int Dydis, int Imokos, int Ismokos, Int64 telefonas, string Vieta)
         {
@@ -32,11 +30,7 @@ namespace BaigiamasisDarbas
             this.Ismokos = Ismokos;
             this.telefonas = telefonas;
             this.Vieta = Vieta;
-            //this.preke = preke;
         }
-        //public Preke Get(int i) { return preke[i]; }
-        //public int Get() { return n; }
-        //public void Set(Preke pr) { preke[n++] = pr; }
         public void SetLentynos(int l) { Lentynos = l; }
         public void SetDydis(int d) { Dydis = d; }
         public void SetImokos(int i) { Imokos = i; }

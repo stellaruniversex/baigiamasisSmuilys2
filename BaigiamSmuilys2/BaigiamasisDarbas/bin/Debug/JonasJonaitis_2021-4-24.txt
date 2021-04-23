@@ -1,0 +1,8 @@
+﻿---K V I T A S---
+Išrašymo data: 2021-4-24
+Kliento vardas: Jonas Jonaitis
+Parduotuvė: Aukštoji g. 30, Kaunas
+-----------Pavadinimas--------------Kaina----Kiekis----Suma--
+|    Mineralinis vanduo, 1000 ml |    0.99 |      5 |   4.95
+|               Kiauliena, 1000g |    4.99 |      4 |  19.96
+Suma: 24.91

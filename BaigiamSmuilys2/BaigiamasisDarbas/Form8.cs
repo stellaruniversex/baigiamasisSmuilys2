@@ -20,7 +20,6 @@ namespace BaigiamasisDarbas
         string line = "";
         string entry = "";
         int x = 0;
-        int n = 0;
         const string Cfd1 = "prekes.txt";
         const string Cfd2 = "parduotuves.txt";
         const string Cfd3 = "pirkejai.txt";

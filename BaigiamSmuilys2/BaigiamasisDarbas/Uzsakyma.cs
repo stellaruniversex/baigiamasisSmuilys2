@@ -23,7 +23,7 @@ namespace BaigiamasisDarbas
         public Uzsakyma(string prekespavad, string pardpavad, string sandpavad, int kiekis, int metai, int menuo, int diena)
         {
             this.prekespavad = prekespavad;
-            this.pardpavad = prekespavad;
+            this.pardpavad = pardpavad;
             this.sandpavad = sandpavad;
             this.kiekis = kiekis;
             this.metai = metai;

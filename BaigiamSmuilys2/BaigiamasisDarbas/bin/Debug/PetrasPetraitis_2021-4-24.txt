@@ -1,0 +1,13 @@
+﻿---K V I T A S---
+Išrašymo data: 2021-4-24
+Kliento vardas: Petras Petraitis
+Parduotuvė: Naujoji g. 17, Vilnius
+-----------Pavadinimas--------------Kaina----Kiekis----Suma---
+|    Mineralinis vanduo, 1000 ml |    0.99 |      5 |   4.95 |
+|               Kiauliena, 1000g |    4.99 |      4 |  19.96 |
+|                Šokoladas, 100g |    1.99 |      7 |  13.93 |
+|                Virdulys, 2000W |   21.99 |      1 |  21.99 |
+|     Cukriniai saldainiai, 200g |    2.99 |      5 |  14.95 |
+|                Jautiena, 1000g |    5.49 |      2 |  10.98 |
+--------------------------------------------------------------
+Suma: 86.76

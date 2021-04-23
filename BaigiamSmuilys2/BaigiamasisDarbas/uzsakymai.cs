@@ -18,8 +18,6 @@ namespace BaigiamasisDarbas
             InitializeComponent();
         }
         int n = 0;
-        int m = 0;
-        int l = 0;
         string sandelys = "";
         string pavadinimas = "";
         string parduotuve = "";
@@ -30,8 +28,6 @@ namespace BaigiamasisDarbas
         int maxmenuo = 0;
         int mindiena = 0;
         int maxdiena = 0;
-        double minkaina = 0;
-        double maxkaina = 0;
         int minkiekis = 0;
         int maxkiekis = 0;
         const int Cmax = 2048;
@@ -50,9 +46,9 @@ namespace BaigiamasisDarbas
             //{
             //
             //}
-            sandelys = comboBox1.Text;
-            pavadinimas = textBox1.Text;
-            parduotuve = textBox2.Text;
+            sandelys = comboBox2.Text;
+            pavadinimas = textBox10.Text;
+            parduotuve = comboBox1.Text;
             if (textBox3.Text == "") minmetai = 1;
             else minmetai = int.Parse(textBox3.Text);
             if (textBox4.Text == "") minmenuo = 1;
@@ -73,7 +69,7 @@ namespace BaigiamasisDarbas
             else minkiekis = int.Parse(textBox1.Text);
             if (textBox2.Text == "") maxkiekis = 2147483647;
             else maxkiekis = int.Parse(textBox2.Text);
-            //isrinkti(dataGridView1, uzsakymaii, prekes, pavadinimas, parduotuve, sandelys, minkiekis, maxkiekis, minmetai, maxmetai, minmenuo, maxmenuo, mindiena, maxdiena, l);
+            isrinkti(dataGridView1, uzsakymaii, pavadinimas, parduotuve, sandelys, minkiekis, maxkiekis, minmetai, maxmetai, minmenuo, maxmenuo, mindiena, maxdiena, n);
             if (textBox9.Text == "")
             {
                 TextWriter fs = new StreamWriter(Cfs, false, System.Text.Encoding.GetEncoding(65001));
@@ -150,7 +146,7 @@ namespace BaigiamasisDarbas
                 ////2021-03-26 > 2024-07-10; 2022-02-06?
                 //inPavadinimas = (prekes[i].GetPavadinimas().IndexOf(pavadinimas, StringComparison.OrdinalIgnoreCase) >= 0);
                 //inparduotuve = (prekes[i].Getparduotuve().IndexOf(parduotuve, StringComparison.OrdinalIgnoreCase) >= 0);
-                //if (inPavadinimas == true && inSandelys == true && inKiekis == true && inPreke == true) dg.Rows.Add(turiniai[i].GetPrekPavad(), turiniai[i].GetAdresas(), turiniai[i].GetKiekis());
+                if (inPavadinimas == true && inSandelys == true && inParduotuve == true && inKiekis == true && inMinData == true && inMaxData == true) dg.Rows.Add(uzsakymai[i].GetPrekesPavad(), uzsakymai[i].GetPardPavad(), uzsakymai[i].GetSandPavad(), uzsakymai[i].GetKiekis(), uzsakymai[i].GetMetai(), uzsakymai[i].GetMenuo(), uzsakymai[i].GetDiena());
             }
         }
         static void SpausdintiDuomenis(DataGridView dg, TextWriter fs)
@@ -198,7 +194,7 @@ namespace BaigiamasisDarbas
             foreach (string line in lines)
             {
                 string[] parts = line.Split(';');
-                cb1.Items.Add(parts[1]);
+                cb2.Items.Add(parts[1]);
             }
             lines = File.ReadAllLines(fv3);
             foreach (string line in lines)
