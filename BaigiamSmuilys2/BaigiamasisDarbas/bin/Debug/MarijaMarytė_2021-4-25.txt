@@ -1,0 +1,10 @@
+﻿---K V I T A S---
+Išrašymo data: 2021-4-25
+Kliento vardas: Marija Marytė
+Parduotuvė: Naujoji g. 17, Vilnius
+-----------Pavadinimas--------------Kaina----Kiekis----Suma---
+|               Kompiuteris X980 |  499.99 |      1 | 499.99 |
+|                Jautiena, 1000g |    5.49 |      6 |  32.94 |
+|              Šaldiklis, 2000 W |  399.99 |      1 | 399.99 |
+---------------------------------------------------------------
+Suma: 932.92

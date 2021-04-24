@@ -148,7 +148,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Consolas", 12.25F);
-            this.textBox1.Location = new System.Drawing.Point(232, 455);
+            this.textBox1.Location = new System.Drawing.Point(125, 455);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(69, 27);
             this.textBox1.TabIndex = 126;
@@ -156,7 +156,7 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Consolas", 12.25F);
-            this.textBox2.Location = new System.Drawing.Point(125, 455);
+            this.textBox2.Location = new System.Drawing.Point(253, 455);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(47, 27);
             this.textBox2.TabIndex = 127;
@@ -164,7 +164,7 @@
             // textBox3
             // 
             this.textBox3.Font = new System.Drawing.Font("Consolas", 12.25F);
-            this.textBox3.Location = new System.Drawing.Point(178, 455);
+            this.textBox3.Location = new System.Drawing.Point(200, 455);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(47, 27);
             this.textBox3.TabIndex = 128;
