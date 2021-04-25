@@ -74,6 +74,18 @@ namespace BaigiamasisDarbas
             if (textBox9.Text == "")
             {
                 TextWriter fs = new StreamWriter(Cfs, false, System.Text.Encoding.GetEncoding(65001));
+                fs.WriteLine("Filtrai:");
+                fs.WriteLine("Pavadinimas: *{0}*", pavadinimas);
+                fs.WriteLine("Parduotuvė: *{0}*", parduotuve);
+                fs.WriteLine("Pirkėjas: *{0}*", vardas + " " + pavarde);
+                fs.WriteLine("Min. metai: {0}", minmetai);
+                fs.WriteLine("Min. mėnuo: {0}", minmenuo);
+                fs.WriteLine("Min. diena: {0}", mindiena);
+                fs.WriteLine("Maks. metai: {0}", maxmetai);
+                fs.WriteLine("Maks. mėnuo: {0}", maxmenuo);
+                fs.WriteLine("Maks. diena: {0}", maxdiena);
+                fs.WriteLine("Min. kiekis: {0}", minkiekis);
+                fs.WriteLine("Maks. kiekis: {0}", maxkiekis);
                 SpausdintiDuomenis(dataGridView1, fs);
                 fs.Close();
                 MessageBox.Show("Sėkmingai įrašyta į ataskaita_nupprekes.txt", "Pranešimas");
@@ -82,6 +94,18 @@ namespace BaigiamasisDarbas
             {
                 string success_string = "Sėkmingai įrašyta į " + textBox9.Text + ".txt";
                 TextWriter fs = new StreamWriter((textBox9.Text + ".txt"), false, System.Text.Encoding.GetEncoding(65001));
+                fs.WriteLine("Filtrai:");
+                fs.WriteLine("Pavadinimas: *{0}*", pavadinimas);
+                fs.WriteLine("Parduotuvė: *{0}*", parduotuve);
+                fs.WriteLine("Pirkėjas: *{0}*", vardas + " " + pavarde);
+                fs.WriteLine("Min. metai: {0}", minmetai);
+                fs.WriteLine("Min. mėnuo: {0}", minmenuo);
+                fs.WriteLine("Min. diena: {0}", mindiena);
+                fs.WriteLine("Maks. metai: {0}", maxmetai);
+                fs.WriteLine("Maks. mėnuo: {0}", maxmenuo);
+                fs.WriteLine("Maks. diena: {0}", maxdiena);
+                fs.WriteLine("Min. kiekis: {0}", minkiekis);
+                fs.WriteLine("Maks. kiekis: {0}", maxkiekis);
                 SpausdintiDuomenis(dataGridView1, fs);
                 fs.Close();
                 //MessageBox.Show("Sėkmingai įrašyta", "Pranešimas");

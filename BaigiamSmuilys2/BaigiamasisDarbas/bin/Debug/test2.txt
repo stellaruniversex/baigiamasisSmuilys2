@@ -1,0 +1,12 @@
+﻿---K V I T A S---
+Išrašymo data: 2021-4-25
+Kliento vardas: Petras Petraitis
+Parduotuvė: Aukštoji g. 30, Kaunas
+-----------Pavadinimas--------------Kaina----Kiekis----Suma---
+|                Virdulys, 2000W |   21.99 |      1 |  21.99 |
+|               Kiauliena, 1000g |    4.99 |      2 |   9.98 |
+|     Cukriniai saldainiai, 200g |    2.99 |      2 |   5.98 |
+|                Šokoladas, 100g |    1.99 |      4 |   7.96 |
+|    Mineralinis vanduo, 1000 ml |    0.99 |      7 |   6.93 |
+---------------------------------------------------------------
+Suma: 52.84

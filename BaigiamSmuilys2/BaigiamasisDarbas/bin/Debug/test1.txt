@@ -1,0 +1,17 @@
+﻿Filtrai:
+Pavadinimas: **
+Gamintojas: **
+Min. metai: 2021
+Min. mėnuo: 1
+Min. diena: 1
+Maks. metai: 2023
+Maks. mėnuo: 12
+Maks. diena: 31
+Min. kaina: 1
+Maks. kaina: 5
+-----------Pavadinimas------------------------Gamintojas------------Metai---Menuo---Diena----Kaina--
+|    Mineralinis vanduo, 2000 ml |                   UAB Vandenys |  2023 |     4 |    21 |   1.49 |
+|               Kiauliena, 1000g |                  UAB Mėsinikai |  2021 |     5 |    15 |   4.99 |
+|                Šokoladas, 100g |                   UAB Cukrainė |  2021 |    11 |    24 |   1.99 |
+|     Cukriniai saldainiai, 200g |                   UAB Cukrainė |  2022 |    10 |    27 |   2.99 |
+----------------------------------------------------------------------------------------------------

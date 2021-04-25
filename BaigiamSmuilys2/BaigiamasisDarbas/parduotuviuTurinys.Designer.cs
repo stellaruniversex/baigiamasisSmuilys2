@@ -321,7 +321,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Name = "parduotuviuTurinys";
-            this.Text = "parduotuviuTurinys";
+            this.Text = "Parduotuvių turinio ataskaitos";
             this.Load += new System.EventHandler(this.parduotuviuTurinys_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();

@@ -169,6 +169,17 @@ namespace BaigiamasisDarbas
             if (textBox11.Text == "")
             {
                 TextWriter fs = new StreamWriter(Cfs, false, System.Text.Encoding.GetEncoding(65001));
+                fs.WriteLine("Filtrai:");
+                fs.WriteLine("Pavadinimas: *{0}*", pavadinimas);
+                fs.WriteLine("Gamintojas: *{0}*", gamintojas);
+                fs.WriteLine("Min. metai: {0}", minmetai);
+                fs.WriteLine("Min. mėnuo: {0}", minmenuo);
+                fs.WriteLine("Min. diena: {0}", mindiena);
+                fs.WriteLine("Maks. metai: {0}", maxmetai);
+                fs.WriteLine("Maks. mėnuo: {0}", maxmenuo);
+                fs.WriteLine("Maks. diena: {0}", maxdiena);
+                fs.WriteLine("Min. kaina: {0}", minkaina);
+                fs.WriteLine("Maks. kaina: {0}", maxkaina);
                 SpausdintiDuomenis(dataGridView1, fs, line);
                 fs.Close();
                 MessageBox.Show("Sėkmingai įrašyta į ataskaita_prekes.txt", "Pranešimas");
@@ -177,6 +188,17 @@ namespace BaigiamasisDarbas
             {
                 string success_string = "Sėkmingai įrašyta į " + textBox11.Text + ".txt";
                 TextWriter fs = new StreamWriter((textBox11.Text + ".txt"), false, System.Text.Encoding.GetEncoding(65001));
+                fs.WriteLine("Filtrai:");
+                fs.WriteLine("Pavadinimas: *{0}*", pavadinimas);
+                fs.WriteLine("Gamintojas: *{0}*", gamintojas);
+                fs.WriteLine("Min. metai: {0}", minmetai);
+                fs.WriteLine("Min. mėnuo: {0}", minmenuo);
+                fs.WriteLine("Min. diena: {0}", mindiena);
+                fs.WriteLine("Maks. metai: {0}", maxmetai);
+                fs.WriteLine("Maks. mėnuo: {0}", maxmenuo);
+                fs.WriteLine("Maks. diena: {0}", maxdiena);
+                fs.WriteLine("Min. kaina: {0}", minkaina);
+                fs.WriteLine("Maks. kaina: {0}", maxkaina);
                 SpausdintiDuomenis(dataGridView1, fs, line);
                 fs.Close();
                 //MessageBox.Show("Sėkmingai įrašyta", "Pranešimas");

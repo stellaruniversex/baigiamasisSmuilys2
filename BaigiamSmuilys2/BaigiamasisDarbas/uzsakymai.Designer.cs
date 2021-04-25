@@ -268,7 +268,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "uzsakymai";
-            this.Text = "uzsakymai";
+            this.Text = "Užsakymų ataskaitos";
             this.Load += new System.EventHandler(this.uzsakymai_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
